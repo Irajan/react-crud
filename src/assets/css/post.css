@@ -1,0 +1,87 @@
+.post-container {
+  background-color: #248114;
+  padding: 10px;
+}
+
+.post-header {
+  background-color: #a8f25e;
+  padding: 10px;
+  margin-bottom: 12px;
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+.post-item {
+  margin: 10px 0;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.post-title {
+  display: flex;
+  padding: 10px 0px;
+  border-bottom: 1px solid black;
+  justify-content: space-between;
+}
+
+.action__del,
+.action__edit {
+  margin: 0px 5px;
+  cursor: pointer;
+}
+
+.post__description {
+  padding-top: 10px;
+  text-align: justify;
+  font-size: 1.02rem;
+}
+
+.add-btn {
+  display: block;
+  font-size: 2rem;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50px;
+  border: none;
+  margin: 0 auto;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.add-btn:hover {
+  background-color: #aaa;
+}
+
+.title__heading {
+  font-size: 1.5rem;
+}
+
+.title__heading.input {
+  padding: 5px;
+  background-color: #ddd;
+  outline: none;
+  border: none;
+}
+.post__input {
+  padding: 10px;
+  width: 100%;
+  resize: vertical;
+  min-height: 100px;
+}
+
+.save-btn {
+  display: block;
+  padding: 5px 10px;
+  background-color: #a8f25e;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-left: auto;
+  margin-top: 10px;
+}
+
+.save-btn:hover {
+  background-color: #d7f25e;
+}

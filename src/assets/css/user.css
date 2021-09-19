@@ -1,0 +1,48 @@
+.user-container {
+  background-color: #248114;
+  padding: 10px;
+}
+
+.user-header {
+  background-color: #a8f25e;
+  padding: 10px;
+  margin-bottom: 12px;
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+.user {
+  margin: 10px 0;
+  background-color: #fff;
+  padding: 10px;
+  font-weight: bolder;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.user-name {
+  padding: 5px 0px;
+}
+
+.show-icon {
+  padding: 0px 12px;
+  cursor: pointer;
+}
+
+.show-icon:hover {
+  color: purple;
+}
+
+.users-posts {
+  flex: 0 0 100%;
+}
+
+.user-post {
+  margin: 10px 0;
+  background-color: #888;
+  padding: 10px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-between;
+}
